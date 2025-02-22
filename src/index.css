@@ -114,7 +114,8 @@
 
 .feature-card:hover .feature-tractor {
   opacity: 1;
-  animation: tractorFeature 2s linear infinite;
+  animation: tractorFeature 4s linear infinite;
+  width: relative;
 }
 
 .cursor-dot {
@@ -157,3 +158,4 @@
 .nav-gradient {
   background: linear-gradient(to right, #f59e0b, #fbbf24);
 }
+

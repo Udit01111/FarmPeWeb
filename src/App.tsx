@@ -20,6 +20,7 @@ import {
   Heart,
   Award
 } from 'lucide-react';
+import ParticlesHero from "../components/ParticlesHero";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -171,6 +172,9 @@ function App() {
 
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center parallax-wrapper pt-20">
+            {/* Particle Effect */}
+              <ParticlesHero />
+
         <motion.div 
           animate={controls}
           className={`absolute inset-0 geometric-bg ${isDark ? 'geometric-bg-dark' : 'geometric-bg-light'}`}
